@@ -17,7 +17,7 @@
   ******************************************************************************
 	注意：1.定时器4用于设置采样率，需要修改并在tim.h中更改
 				2.注释掉TIM3_Init,原因未知
-				3.波特率为115200
+				3.波特率为115200.
 				4.注意ad7606.h中的#define AD_MISO_IN	PGin(12)更改
   */
 /* USER CODE END Header */
@@ -26,6 +26,8 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
+
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
